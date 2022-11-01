@@ -1,0 +1,40 @@
+
+
+.Navbar_main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    position: sticky;
+    padding: 10px;
+  }
+  
+  .Navbar_Two{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top:25px;
+    height: 60%;
+  }
+  .Navbar_Two div{
+    padding: 10px 10px;
+    font-size:20px;
+    font-weight: 500;
+    border-radius: 10px;
+  }
+  .Navbar_Two div:hover{
+    padding: 10px 10px;
+    font-size:20px;
+    color: white;
+    background-color: #84ceeb;
+    font-weight: 500;
+    border-radius: 10px;
+  }
+.Navbar_one{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+  .logo{
+    color:#84ceeb ;
+    font-weight: 700;
+  }
