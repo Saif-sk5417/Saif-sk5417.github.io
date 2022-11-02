@@ -1,0 +1,74 @@
+
+
+
+
+.ProjectCards_Main{
+    width: 90%;
+    border: 1px solid #1185b2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+.ProjectCards_Img img{
+    width: 90%;
+    display: inline;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+.ProjectCards_Name{
+    font-size:30px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+.ProjectCards_Des{
+    text-align: left;
+    margin-top: 10px;
+}
+ li{
+    text-align:left;
+    font-size: 20px;
+}
+.ProjectCards_highlight{
+ font-weight: 600;
+ font-size: 20px;
+}
+.ProjectCards_icons{
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+}
+.ProjectCards_icons div{
+    border: 1px solid black;
+}
+
+.ProjectCards_Buttons button{
+    width: 20%;
+    border: 2px solid #84ceeb;
+    color: #84ceeb;
+    margin-left: 40px;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.ProjectCards_Buttons button:hover{
+    cursor: pointer;
+    background-color: #84ceeb;
+    color: white;
+    font-size: 23px;
+}
+.ProjectCards_Buttons_icons{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+}

@@ -1,0 +1,42 @@
+.About_img img{
+    width: 20%;
+
+}
+.About_title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 200px;
+}
+
+.About_Des{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.Resume_Main{
+    width: 20%;
+    border: 2px solid #84ceeb;
+    color: #84ceeb;
+    margin: auto;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 20px 0px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.Resume_Main:hover{
+    cursor: pointer;
+    background-color: #84ceeb;
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+.Resume_GrDocumentPdf{
+    color: #84ceeb;
+    margin-left: 10px;
+}

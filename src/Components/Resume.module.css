@@ -1,0 +1,26 @@
+.Resume_Main{
+    width: 20%;
+    border: 2px solid #84ceeb;
+    color: #84ceeb;
+    margin: auto;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.Resume_Main:hover{
+    cursor: pointer;
+    background-color: #84ceeb;
+    color: white;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+.Resume_GrDocumentPdf{
+    color: #84ceeb;
+    margin-left: 10px;
+}

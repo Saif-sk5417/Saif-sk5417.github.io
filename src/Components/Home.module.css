@@ -3,9 +3,49 @@
 .Home_Name{
     font-size: 70px;
     font-weight: 600;
-    margin-top: 100px;
+    margin-top: 200px;
     text-align: center;
 }
 .Home_hi{
     color:#84ceeb;
+}
+
+.Home_title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    background-color: #84ceeb;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 500px;
+}
+.Home_title1{
+    color:white;
+}
+
+.Home_des{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.Home_icons {
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.Home_icons a:hover{
+    color: #1185b2;
+   font-size: 4rem;
+}
+.Home_icons a{
+    transition: all 0.5s ease-in-out 0s;
+    text-decoration: none;
+    color:black;
+    font-size:30px;
 }

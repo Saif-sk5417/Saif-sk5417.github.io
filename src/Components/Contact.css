@@ -1,0 +1,47 @@
+.contactcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+  }
+  .section__title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px;
+  }
+  .section{
+  padding: 20px 0px;
+  }
+  .contactcontainer svg {
+    font-size: 5em;
+    transition: all 0.5s ease-in-out 0s;
+    color: var(--clr-primary);
+  }
+  .contactcontainer svg:hover {
+    font-size: 6rem;
+  }
+  .linkedin:hover {
+    color: #0a66c2;
+  }
+  .github:hover {
+    color: darkgreen;
+  }
+  .email:hover {
+    color: #d93025;
+  }
+  .twitter:hover {
+    color: rgb(29, 155, 240);
+  }
+  .phone:hover {
+    color: rgb(49, 236, 49);
+  }
+  .contactcontainer a{
+    color: black;
+  }
+  @media (max-width: 600px) {
+    .contactcontainer svg {
+      font-size: 2em;
+    }
+    .contactcontainer svg:hover {
+      font-size: 3rem;
+    }
+  }

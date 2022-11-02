@@ -1,6 +1,5 @@
 
 
-
 import styles from './Navbar.module.css'
 import { GiHamburgerMenu } from 'react-icons/gi'
 const Navbar =()=>{
@@ -16,7 +15,11 @@ const Navbar =()=>{
      <div>Skills</div>
      <div>Project</div>
      <div>Contact</div>
-     <div>Resume</div>
+     <a 
+     href="https://drive.google.com/file/d/1w56MA5PwaRjQDPjjjWNSYHfll2j7JwTt/view?usp=sharing"
+     target="_blank"
+     rel="noreferrer"
+     ><div>Resume</div></a>
     </div>
     </div>
   )

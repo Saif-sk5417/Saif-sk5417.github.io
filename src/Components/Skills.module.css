@@ -1,0 +1,34 @@
+
+
+.Skills_Heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 90px;
+}
+
+.Skills_Icons{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-size: 50px;
+    color: #84ceeb;
+    width: 90%;
+    margin: auto;
+    gap: 50px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.Skills_Icons div{
+    border: 1px solid #1185b2;
+    padding: 40px;
+    border-radius: 200px;
+}
+.Skills_Icons div:hover{
+    color: black;
+    background-color: #1185b2;
+    cursor: pointer;
+}
+.Skills_P{
+    color: black;
+    font-size: 25px;
+    margin-top: -20px;
+}

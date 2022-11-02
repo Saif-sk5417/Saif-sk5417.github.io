@@ -1,0 +1,12 @@
+.GitHubCalendar_Main{
+    width: 90%;
+    margin: auto;
+}
+
+.GitHubCalendar_title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px; 
+    margin-bottom: 70px;  
+}
