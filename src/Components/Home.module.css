@@ -49,3 +49,21 @@
     color:black;
     font-size:30px;
 }
+
+
+
+@media (max-width : 700px){
+   .Home_Name{
+    font-size: 40px;
+   } 
+   .Home_title{
+    font-size: 18px;
+   }
+   .Home_des{
+    font-size: 16px;
+    text-align: justify;
+   }
+   .Home_icons {
+    font-size: 20px;
+   }
+}
