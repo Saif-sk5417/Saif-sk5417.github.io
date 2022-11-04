@@ -49,3 +49,10 @@ a{
     color:#84ceeb ;
     font-weight: 700;
   }
+
+
+  @media(max-width : 480px){
+    .Navbar_Two div{
+      display: none;
+    }
+  }

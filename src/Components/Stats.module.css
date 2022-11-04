@@ -1,0 +1,16 @@
+.Stats_Main{
+width: 97%;
+margin: auto;
+margin-top: 50px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+@media (max-width : 480px){
+    .Stats_Main{
+       display: none;
+    }
+}
+
+
+/* style={{ width: "97%", margin: "auto" ,marginTop:'50px' ,display:'grid'
+    ,gridTemplateColumns:'repeat(3,1fr)' */

@@ -10,3 +10,12 @@
     margin-top: 70px; 
     margin-bottom: 70px;  
 }
+
+@media (max-width : 480px){
+    .GitHubCalendar_title{
+        font-size: 30px; 
+    }
+    .GitHubCalendar_Main{
+        width: 95%;
+    }
+}

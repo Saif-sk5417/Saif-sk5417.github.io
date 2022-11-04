@@ -40,3 +40,41 @@ a{
     color: #84ceeb;
     margin-left: 10px;
 }
+
+
+
+@media (max-width : 480px){
+    .About_img img{
+        width: 60%;
+    
+    }
+    .About_title{
+        font-size: 35px;
+        margin-top: 45px;
+    }
+    .About_Des{
+        width: 85%;
+        margin-top: 18px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .Resume_Main{
+        width: 60%;
+        border: 2px solid #84ceeb;
+        color: #84ceeb;
+        margin: auto;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        padding: 20px 0px;
+        font-size: 20px;
+        border-radius: 20px;
+        transition: all 0.5s ease-in-out 0s;
+    }
+    .Resume_Main:hover{
+        cursor: pointer;
+        background-color: #84ceeb;
+        color: white;
+        font-size: 25px;
+    }
+}

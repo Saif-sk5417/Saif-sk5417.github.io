@@ -16,10 +16,10 @@ const Project = () =>{
  return (
    <div>
     <div className={styles.Project_title}>
-       Project
+       Projects
     </div>
     <div>
-    <div>
+    <div className={styles.ProjectCards_Main}>
   <ProjectCards 
      alt = 'Project1'
      img ='https://vaibhav-sultane-portfolio.vercel.app/assets/img/jpg/Perpetual-Crusades.jpg'

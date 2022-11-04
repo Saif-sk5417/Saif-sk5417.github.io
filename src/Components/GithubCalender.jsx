@@ -26,9 +26,10 @@ const MyGitHubCalendar=()=>{
         <div className={styles.GitHubCalendar_title}>My Github Calender & Stats</div>
           <div>
             <GitHubCalendar
+            className={styles.GitHubCalendar}
              username="Saif-sk5417"
-             blockSize={20}
-             fontSize={20}
+             blockSize={16}
+             fontSize={12}
              color={'#1185b2'}
              >
              <ReactTooltip delayShow={20} html />

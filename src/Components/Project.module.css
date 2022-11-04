@@ -22,3 +22,24 @@
     margin-bottom: 20px;
     
 }
+
+
+@media (max-width : 480px){
+  .Project_title{
+    font-size: 30px;
+}
+.Project_icons{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 90%;
+  gap: 10px;
+  font-size: 35px;
+
+}
+.Project_icons div{
+    padding: 13px 23px;
+}
+.ProjectCards_Main div{
+  margin-top: 35px;
+}
+}

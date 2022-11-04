@@ -1,10 +1,9 @@
+import styles from './Stats.module.css'
 const Stats = () => {
     return (
       // streak 
       <div>
-        <div style={{ width: "97%", margin: "auto" ,marginTop:'50px' ,display:'grid'
-       ,gridTemplateColumns:'repeat(3,1fr)'
-     }}>
+        <div className ={styles.Stats_Main}>
           <a href="https://github.com/Saif-sk5417">
             <img
               align="left"

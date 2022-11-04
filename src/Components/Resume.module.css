@@ -24,3 +24,17 @@ a{
     color: #84ceeb;
     margin-left: 10px;
 }
+
+
+@media (max-width : 480px){
+    .Resume_Main{
+        width: 80%;
+        padding: 15px 0px;
+        font-size: 25px;
+        border-radius: 20px;
+        transition: all 0.5s ease-in-out 0s;
+    }
+    .Resume_Main:hover{
+        font-size:30px;
+    }
+}

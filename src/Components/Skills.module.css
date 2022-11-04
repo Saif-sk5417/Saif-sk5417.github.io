@@ -32,3 +32,23 @@
     font-size: 25px;
     margin-top: -20px;
 }
+
+@media (max-width : 480px){
+    .Skills_Heading{
+        font-size: 35px;
+        margin-top: -3px;
+        margin-bottom: 25px;
+    }
+    .Skills_Icons{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        font-size: 50px;
+        width: 95%;
+        gap: 25px;
+        padding: 5px;
+    }
+    .Skills_Icons div{
+        padding: 15px;
+        border-radius: 500px;
+    }
+}
