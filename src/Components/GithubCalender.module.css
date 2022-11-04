@@ -2,6 +2,9 @@
     width: 90%;
     margin: auto;
 }
+.GitHubCalendar_Main div{
+    margin-left: 50px;
+}
 
 .GitHubCalendar_title{
     text-align: center;
@@ -11,11 +14,14 @@
     margin-bottom: 70px;  
 }
 
-@media (max-width : 480px){
+@media (max-width : 700px){
     .GitHubCalendar_title{
         font-size: 30px; 
     }
     .GitHubCalendar_Main{
         width: 95%;
+    }
+    .GitHubCalendar_Main div{
+        margin-left: 0px;
     }
 }
