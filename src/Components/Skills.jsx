@@ -9,7 +9,7 @@ import {
   SiNetlify
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
+import { SiJavascript ,SiTypescript,SiChakraui} from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { GrDocumentPdf } from "react-icons/gr";
 import styles from './Skills.module.css'
@@ -18,7 +18,7 @@ import styles from './Skills.module.css'
 const Skills =()=>{
     return (
         <div className={styles.Skills_Main}>
-          <div className={styles.Skills_Heading}>Skills</div>
+          <div className={styles.Skills_Heading}>Tech Skills</div>
           <div className={styles.Skills_Icons}>
            <div>
             <SiHtml5 />
@@ -53,12 +53,12 @@ const Skills =()=>{
             <p className={styles.Skills_P}>Mongodb</p>
             </div>
            <div>
-            <VscGithub />
-           <p className={styles.Skills_P}>Github</p>
+            <SiTypescript />
+           <p className={styles.Skills_P}>TypeScript</p>
            </div>
            <div>
-            <SiNetlify />
-            <p className={styles.Skills_P}>Netlify</p>
+            <SiChakraui/>
+            <p className={styles.Skills_P}>ChakraUI</p>
             </div>
           </div>
         </div>

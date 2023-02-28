@@ -1,45 +1,27 @@
+
+.ProjectCards_Main{
+  width:95%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin:auto
+}
 .Project_title{
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 70px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 50px;
 }
-.Project_icons{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  width: 40%;
-  gap: 20px;
-  color:#1184b2;
-  font-size: 50px;
-  margin: auto;
-
-}
-.Project_icons div{
-    border: 1px solid #84ceeb;
-    border-radius: 50px;
-    margin: auto;
-    padding: 8px 23px;
-    margin-top:10px;
-    margin-bottom: 20px;
-    
-}
-
-
 @media (max-width : 600px){
-  .Project_title{
-    font-size: 30px;
+  .ProjectCards_Main{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 50px;
+  }
 }
-.Project_icons{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  width: 90%;
-  gap: 10px;
-  font-size: 35px;
 
-}
-.Project_icons div{
-    padding: 13px 23px;
-}
-.ProjectCards_Main div{
-  margin-top: 35px;
-}
+@media screen and (min-width: 600px) and (max-width: 1100px){
+  .ProjectCards_Main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+  }
 }

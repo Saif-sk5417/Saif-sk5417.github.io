@@ -2,6 +2,7 @@ import { FaLinkedinIn   } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FiGithub } from 'react-icons/fi'
 import styles from './Home.module.css'
+import { TypeWritter } from './TypeWriter'
 const Home =()=>{
     return(
         <div className={styles.Home_Main}>
@@ -9,8 +10,10 @@ const Home =()=>{
             <span className={styles.Home_hi}>Hi</span>, I am Saif Shaikh
          </div>
          <div className={styles.Home_title}>
-            A <span className={styles.Home_title1}>Full Stack</span> Developer
+            {/* A <span className={styles.Home_title1}>Full Stack</span> Developer */}
+            <TypeWritter />
          </div>
+          
          <div className={styles.Home_des}>
          A Full Stack Developer who loves solving problems and building projects. I am equipped with a variety of technologies and tools to help me build the best possible product.
          </div>

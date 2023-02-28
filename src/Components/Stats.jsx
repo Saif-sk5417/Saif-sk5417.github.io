@@ -4,7 +4,7 @@ const Stats = () => {
       // streak 
       <div>
         <div className ={styles.Stats_Main}>
-          <a href="https://github.com/Saif-sk5417">
+          <a className ={styles.Stats_one} href="https://github.com/Saif-sk5417">
             <img
               align="left"
               src="https://github-readme-streak-stats.herokuapp.com/?user=Saif-sk5417"

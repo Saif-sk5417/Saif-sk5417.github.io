@@ -2,7 +2,7 @@
 import styles from  './ProjectCards.module.css'
 import { FiGithub  } from 'react-icons/fi'
 import { BsFillArrowUpRightCircleFill } from 'react-icons/bs'
-const ProjectCards=({Name , Description ,img , alt ,techStack ,time,des,TypeOfProject,Live,github})=>{
+const ProjectCards=({Name , Description ,img , alt ,Stack ,time,des,TypeOfProject,Live,github})=>{
     return(
         <div className={styles.ProjectCards_Main}>
            <div className={styles.ProjectCards_Img}>
@@ -14,9 +14,7 @@ const ProjectCards=({Name , Description ,img , alt ,techStack ,time,des,TypeOfPr
             <div className={styles.ProjectCards_Des2}>
               <li><span className={styles.ProjectCards_highlight}>{TypeOfProject}</span>{des}</li>
               <li><span className={styles.ProjectCards_highlight}>Duration </span>:{time}</li>
-            </div>
-            <div >
-              {techStack}
+              <li><span className={styles.ProjectCards_highlight}>Tech Stack </span>:{Stack}</li>
             </div>
             <div className={styles.ProjectCards_Buttons}>
                 <a

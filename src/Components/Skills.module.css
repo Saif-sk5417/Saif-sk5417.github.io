@@ -42,14 +42,23 @@
     .Skills_Icons{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        font-size: 50px;
-        width: 95%;
-        gap: 25px;
-        padding: 5px;
+        font-size: 60px;
+        color: #84ceeb;
+        width: 100%;
+        margin: auto;
+        gap: 10px;
+        padding: 0px;
+        margin-top: 10px;
     }
     .Skills_Icons div{
-        padding: 15px;
+        border: 1px solid #1185b2;
+        padding: 30px 0px;
         border-radius: 500px;
+    }
+    .Skills_P{
+        color: black;
+        font-size: 15px;
+        margin-right: 20px;
     }
 }
 

@@ -12,7 +12,7 @@ export const Contact = () => {
     <>
       <div className="section">
         <h2 className="section__title">
-         <span className="different">Contact</span>
+         <span className="different">Contacts</span>
         </h2>
         <div className="contactcontainer" >
           <a
@@ -21,6 +21,7 @@ export const Contact = () => {
             rel="noreferrer"
           >
             <FaLinkedin className="linkedin" />
+            <p>LinkedIn</p>
           </a>
           <a
             href="https://github.com/Saif-sk5417"
@@ -28,6 +29,7 @@ export const Contact = () => {
             rel="noreferrer"
           >
             <VscGithub className="github" />
+            <p>Github</p>
           </a>
           <a
             href="mailto:saifshaikh230304@gmail.com"
@@ -35,16 +37,18 @@ export const Contact = () => {
             rel="noreferrer"
           >
             <CgMail className="email" />
+            <p>saifshaikh230304@gmail.com</p>
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/thesavagesquall"
             target="_blank"
             rel="noreferrer"
           >
             <BsInstagram className="twitter" />
-          </a>
+          </a> */}
           <a href="tel:+919324373472" target="_blank" rel="noreferrer">
             <BsFillTelephoneFill className="phone" />
+            <p>+91 9324373472</p>
           </a>
         </div>
       </div>

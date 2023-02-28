@@ -3,62 +3,54 @@
 
 
 .ProjectCards_Main{
-    width: 90%;
-    border: 1px solid #1185b2;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 50px;
+    width: 80%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     margin: auto;
     margin-top: 50px;
-    padding: 30px;
-    display: grid;
-    grid-template-columns:50% 50%;
+    padding: 20px;
+    border-radius: 10px;
 }
 .ProjectCards_Img img{
-    width: 90%;
+    width: 100%;
     display: inline;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: auto;
-    margin-top: 30px;
-    border-radius: 40px;
+    margin-top: 20px;
 }
 .ProjectCards_Name{
-    font-size:30px;
-    font-weight: 700;
+    font-size:25px;
+    font-weight: 500;
+    margin-top: 10px;
 }
 a{
     text-decoration: none;
 }
 .ProjectCards_Des{
-    text-align: left;
+    text-align:justify;
     margin-top: 10px;
 }
  li{
     text-align:left;
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: 7px;
 }
 .ProjectCards_highlight{
  font-weight: 600;
- font-size: 20px;
+ font-size: 17px;
 }
-.ProjectCards_icons{
-    font-size: 50px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin: auto;
+.ProjectCards_Buttons{
+    display: flex;
+    margin-top: 20px;
 }
-.ProjectCards_icons div{
-    border: 1px solid black;
-}
-
 .ProjectCards_Buttons button{
-    width: 20%;
+    width: 85%;
     border: 2px solid #84ceeb;
     color: #84ceeb;
-    margin-left: 40px;
+    margin-left: 30px;
     font-weight: 500;
     padding: 10px;
     font-size: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
     transition: all 0.5s ease-in-out 0s;
 }
 .ProjectCards_Buttons button:hover{
@@ -78,7 +70,7 @@ a{
     .ProjectCards_Main{
         width: 95%;
         display: block;
-        padding: 5px;
+        padding: 15px;
         margin: auto;
     }
     .ProjectCards_Img img{
@@ -101,14 +93,14 @@ a{
      font-size: 16px;
     }
     .ProjectCards_Buttons button{
-        width: 50%;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-left: 17px;
+        width: 80%;
+        border: 2px solid #84ceeb;
+        color: #84ceeb;
+        margin-left: 30px;
         font-weight: 500;
         padding: 10px;
         font-size: 20px;
-        border-radius: 20px;
+        border-radius: 15px;
         transition: all 0.5s ease-in-out 0s;
     }
     .ProjectCards_Buttons button:hover{
@@ -124,7 +116,7 @@ a{
     .ProjectCards_Main{
         width: 95%;
         display: block;
-        padding: 5px;
+        padding: 15px;
         margin: auto;
     }
     .ProjectCards_Img img{
@@ -147,14 +139,15 @@ a{
      font-size: 16px;
     }
     .ProjectCards_Buttons button{
-        width: 50%;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-left: 17px;
+        width: 80%;
+        border: 2px solid #84ceeb;
+        color: #84ceeb;
+        margin-left: 30px;
+        margin-bottom: 10px;
         font-weight: 500;
         padding: 10px;
         font-size: 20px;
-        border-radius: 20px;
+        border-radius: 15px;
         transition: all 0.5s ease-in-out 0s;
     }
     .ProjectCards_Buttons button:hover{
