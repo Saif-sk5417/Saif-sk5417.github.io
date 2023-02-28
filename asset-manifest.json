@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f814d55e.css",
-    "main.js": "/static/js/main.b715f743.js",
+    "main.css": "/static/css/main.e3d5aa60.css",
+    "main.js": "/static/js/main.8c104265.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/My_img.jpeg": "/static/media/My_img.408e1796348019bd269f.jpeg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/fw20_1170-Saif-Shaikh-Resume.pdf": "/static/media/fw20_1170-Saif-Shaikh-Resume.bf066cb4b81142d76110.pdf",
+    "static/media/NatureTrug.jpg": "/static/media/NatureTrug.efa2168b8d9e24bf534d.jpg",
+    "static/media/one.jpg": "/static/media/one.6b3718472d43bd45979d.jpg",
+    "static/media/My_img4.jpeg": "/static/media/My_img4.4112861dfe96671b93a5.jpeg",
     "index.html": "/index.html",
-    "main.f814d55e.css.map": "/static/css/main.f814d55e.css.map",
-    "main.b715f743.js.map": "/static/js/main.b715f743.js.map",
+    "main.e3d5aa60.css.map": "/static/css/main.e3d5aa60.css.map",
+    "main.8c104265.js.map": "/static/js/main.8c104265.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f814d55e.css",
-    "static/js/main.b715f743.js"
+    "static/css/main.e3d5aa60.css",
+    "static/js/main.8c104265.js"
   ]
 }
